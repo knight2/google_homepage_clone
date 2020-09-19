@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    background: #fff;   
+}
+
+nav{
+    text-align: right;
+    padding:10px 25px 0 0;  
+}
+ul{
+    display: inline-block;
+    list-style-type: none;   
+}
+
+li{
+    display:inline-block;  
+    justify-content:space-between;
+    
+}
+
+a {
+    display:inline-block;
+    text-decoration:none ;  
+    padding: 6px; 
+    vertical-align: middle;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    
+}
+
+
+a.btn{
+    border: 1px solid #4285f4;
+    border-radius: 1px;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: white;
+    padding: 0 12px;
+    line-height: 28px;
+}
+
+#logo{
+    display:block;
+    
+}
+.logo-container{
+   
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.search-box-container{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-left:20px;
+    margin-right:-5px;
+}
+
+.txt-area{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    outline:none;
+    display:flex;
+    flex: 100%;
+    font-size: 16px;
+}
+
+.search-btn-container{
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+    width: 487px;
+}
+.search-btn{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+.fbar{
+    display:block;
+    height: auto;
+    visibility: visible;
+    border-bottom: 1px solid #e4e4e4;
+}
+#footer{
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right:0;
+}
+
+.footer-links{
+    font-size:15px;
+    color: rgba(0,0,0,.54);
+    margin-left: 20px;
+}
+.footer-right{
+    float: right;
+    margin-right: 30px;
+    white-space: nowrap;
+}
+.footer-left{ 
+    float: left;
+
+}
